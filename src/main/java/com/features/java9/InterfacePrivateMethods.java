@@ -1,6 +1,6 @@
 package com.features.java9;
 
-public interface College {
+public interface InterfacePrivateMethods {
     default String getCollegeDetails() {
         System.out.println(getGreetings());
         return getCollegeName() + " " + getCollegeDepartments() + " " + getCollegeDepartments();
